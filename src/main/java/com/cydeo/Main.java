@@ -8,7 +8,9 @@ public class Main {
         BaseballPlayer pat = new BaseballPlayer("Pat");
         SoccerPlayer beckham= new SoccerPlayer("Beckham");
 
-        Team liverpool = new Team<>("Liverpool");
+
+        Team <SoccerPlayer> liverpool = new Team<>("Liverpool");
         liverpool.addPlayer(beckham);
+
     }
 }
